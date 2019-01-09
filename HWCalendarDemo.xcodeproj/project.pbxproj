@@ -27,7 +27,6 @@
 		619AC7C521E4917A000EEF71 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 619AC7B921E4917A000EEF71 /* MASConstraint.m */; };
 		619AC7C621E4917A000EEF71 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 619AC7BB21E4917A000EEF71 /* MASViewConstraint.m */; };
 		619AC7C721E4917A000EEF71 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 619AC7BC21E4917A000EEF71 /* MASViewAttribute.m */; };
-		619AC7C821E4917A000EEF71 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 619AC7BD21E4917A000EEF71 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +84,6 @@
 		619AC7BA21E4917A000EEF71 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		619AC7BB21E4917A000EEF71 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
 		619AC7BC21E4917A000EEF71 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		619AC7BD21E4917A000EEF71 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +182,6 @@
 				619AC7BA21E4917A000EEF71 /* ViewController+MASAdditions.h */,
 				619AC7BB21E4917A000EEF71 /* MASViewConstraint.m */,
 				619AC7BC21E4917A000EEF71 /* MASViewAttribute.m */,
-				619AC7BD21E4917A000EEF71 /* Info.plist */,
 			);
 			path = Masonry;
 			sourceTree = "<group>";
@@ -269,7 +266,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619AC7C821E4917A000EEF71 /* Info.plist in Resources */,
 				619AC78321E44C25000EEF71 /* LaunchScreen.storyboard in Resources */,
 				619AC78021E44C25000EEF71 /* Assets.xcassets in Resources */,
 				619AC77E21E44C23000EEF71 /* Main.storyboard in Resources */,
@@ -464,7 +460,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4D937Q79X;
 				INFOPLIST_FILE = HWCalendarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,7 +478,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N4D937Q79X;
 				INFOPLIST_FILE = HWCalendarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
