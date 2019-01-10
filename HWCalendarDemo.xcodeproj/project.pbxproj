@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611684BB21E6E60F00867A54 /* HWCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 611684BA21E6E60F00867A54 /* HWCalendarTool.m */; };
 		619AC77821E44C23000EEF71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 619AC77721E44C23000EEF71 /* AppDelegate.m */; };
 		619AC77B21E44C23000EEF71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619AC77A21E44C23000EEF71 /* ViewController.m */; };
 		619AC77E21E44C23000EEF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619AC77C21E44C23000EEF71 /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		611684B921E6E60F00867A54 /* HWCalendarTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWCalendarTool.h; sourceTree = "<group>"; };
+		611684BA21E6E60F00867A54 /* HWCalendarTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCalendarTool.m; sourceTree = "<group>"; };
 		619AC77321E44C23000EEF71 /* HWCalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWCalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		619AC77621E44C23000EEF71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		619AC77721E44C23000EEF71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 				619AC77721E44C23000EEF71 /* AppDelegate.m */,
 				619AC77921E44C23000EEF71 /* ViewController.h */,
 				619AC77A21E44C23000EEF71 /* ViewController.m */,
+				611684B921E6E60F00867A54 /* HWCalendarTool.h */,
+				611684BA21E6E60F00867A54 /* HWCalendarTool.m */,
 				619AC79A21E44EC5000EEF71 /* WeekHeaderView.h */,
 				619AC79B21E44EC5000EEF71 /* WeekHeaderView.m */,
 				619AC79D21E48C7C000EEF71 /* CollectionHeaderView.h */,
@@ -288,6 +293,7 @@
 			files = (
 				619AC7C621E4917A000EEF71 /* MASViewConstraint.m in Sources */,
 				619AC77B21E44C23000EEF71 /* ViewController.m in Sources */,
+				611684BB21E6E60F00867A54 /* HWCalendarTool.m in Sources */,
 				619AC7C121E4917A000EEF71 /* MASConstraintMaker.m in Sources */,
 				619AC78621E44C25000EEF71 /* main.m in Sources */,
 				619AC7BF21E4917A000EEF71 /* ViewController+MASAdditions.m in Sources */,
