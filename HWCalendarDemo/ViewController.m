@@ -135,14 +135,25 @@ static NSString * const kFooterView = @"kCollectionFooterView";
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
     CalendarCollectionViewCell *cell;
+    // 还原被点击出的背景色
     if (_selectedIndexPath) {
         cell = (CalendarCollectionViewCell *)[collectionView cellForItemAtIndexPath:_selectedIndexPath];
         cell.bgColor = UIColor.whiteColor;
     }
+    
+    // 设置点击出颜色背景
     _selectedIndexPath = indexPath;
     cell = (CalendarCollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
     cell.bgColor = UIColor.redColor;
     
+    // 设置点击空白处空白处颜色还原
+    NSDate *amountOfDate = [HWCalendarTool getAMonthfromCalender:_calender fromDate:_currentDate months:indexPath.section];
+    NSInteger indexNumber = [HWCalendarTool firstDayInWeekForMonthOfCalender:_calender fromData:amountOfDate];
+    if (indexPath.item < indexNumber) {
+        cell.bgColor = UIColor.whiteColor;
+    }
+    
+    // today item backgroundColor
     if (indexPath.section == 0 && _selectedIndexPath.item != _selectedIndex) {
         cell = (CalendarCollectionViewCell *)[collectionView cellForItemAtIndexPath:[NSIndexPath indexPathForItem:_selectedIndex inSection:0]];
         cell.bgColor = UIColor.yellowColor;
